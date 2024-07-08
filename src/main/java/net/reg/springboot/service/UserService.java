@@ -9,6 +9,7 @@ import net.reg.springboot.web.dto.UserRegistrationDto;
 public interface UserService extends UserDetailsService
 
 {
+
 	User save(UserRegistrationDto registrationDto);
 }
 
